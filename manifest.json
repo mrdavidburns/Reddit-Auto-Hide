@@ -1,0 +1,11 @@
+{
+  "name": "Reddit Auto-Hide",
+  "version": "1.0",
+  "description": "Hides articles as they scroll beyond top of viewable window.",
+  "content_scripts": [
+    {
+      "matches": ["http://www.reddit.com/*"],
+      "js": ["jquery-1.6.4.min.js", "reddit-autohide.js"]
+    }
+  ]
+}
